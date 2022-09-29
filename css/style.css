@@ -1,10 +1,22 @@
-.result-section{
+/*
+ *           mmm,
+ *          /::* &gt;
+ * \        |::/
+ *  Aaa..../:::\
+ *  \:::::::::::|
+ *   \:::::::::/
+ *    \:::::::/
+ *      \:/\:/
+ *       |_  \__
+ *        \   |\
+ */
+
+.result-section {
   display: flex;
   flex-direction: column;
   width: 100%;
   justify-content: center;
   align-items: center;
-  
 }
 
 .result-section article {
@@ -13,12 +25,10 @@
   align-items: center;
   border: 1px solid #ccc;
   width: 100%;
-
 }
 
 .result-section article .Chicken-title,
-.result-section article .beer-title 
-{
+.result-section article .beer-title {
   position: relative;
   left: 24px;
   font-size: 100px;
@@ -27,18 +37,14 @@
   align-self: start;
 }
 .result-section article.Chicken-container:hover .Chicken-title span,
-.result-section article.ber-container:hover .beer-title span{
+.result-section article.ber-container:hover .beer-title span {
   color: rgba(0, 0, 0, 30%);
 }
-
-
-
 
 .result-section .beer-output {
   font-size: 64px;
   font-weight: bold;
 }
-
 
 .result-section .image-box {
   display: flex;
@@ -48,15 +54,14 @@
 }
 .result-section .image-box img {
 }
+/*header*/
 body {
   font-family: 'Nanum Gothic', sans-serif;
 }
-
 a {
   text-decoration: none;
   color: #333;
 }
-
 nav {
   display: flex;
   justify-content: space-between;
@@ -64,9 +69,8 @@ nav {
   padding: 15px;
   background-color: #5264ae;
 }
-
 nav .title {
-      padding: 15px;
+  padding: 15px;
 }
 
 main .people article {
@@ -100,18 +104,48 @@ main .people article .people-number input {
   border-bottom: 3px solid #5264ae;
 }
 
-input[type="number"]::-webkit-outer-spin-button,
-input[type="number"]::-webkit-inner-spin-button {
-    -webkit-appearance: none;
-    -moz-appearance: none;
-    appearance: none;
+input[type='number']::-webkit-outer-spin-button,
+input[type='number']::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
 }
 
-footer .fibona-chicken {
+/*footer*/
+.fibona-chicken {
+  margin: 0;
+  font-size: 20px;
   font-weight: 300px;
+  padding: 20px;
+  padding: 19px;
+  margin: 20px 0;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 23%), 0 3px 10px rgb(0 0 0 / 16%);
+  border-radius: 2px;
+  border: 0;
 }
-
+.fibona-chicken h1 {
+  font-size: 36px;
+  margin: 20px 0 10px 0;
+  line-height: 1.1;
+}
+.fibona-chicken p {
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 20px;
+  margin: 0 0 10px;
+  color: #000000d6;
+}
 footer .btn {
-  background-color: #03a9f4;
+  padding: 8px 30px;
+  border: 0;
+  margin: 10px 1px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 900px;
+  border-radius: 2px;
+  background-color: #5264ae;
+  color: #fff;
+  width: 200px;
+  height: 56px;
+  opacity: 80%;
 }
-
